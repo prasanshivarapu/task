@@ -23,7 +23,7 @@ function Home() {
                     <Col md={6}>
                         <img
                             src="./abc.jpg"
-                            alt="Image 1"
+                            alt="Image1"
                             fluid
                             className="img-fluid"
                         />
@@ -31,11 +31,7 @@ function Home() {
                 </Row>
                 <Row className="mt-5 mb-5  border-bottom">
                     <Col md={6}>
-                        <img
-                            src="./c.jpg"
-                            alt="Image 2"
-                            className="img-fluid"
-                        />
+                        <img src="./c.jpg" alt="Image2" className="img-fluid" />
                     </Col>
                     <Col md={6} className="m1">
                         <p className="mt-3 mb-3">
@@ -57,11 +53,7 @@ function Home() {
                         </p>
                     </Col>
                     <Col md={6}>
-                        <img
-                            src="./d.jpg"
-                            alt="Image 3"
-                            className="img-fluid"
-                        />
+                        <img src="./d.jpg" alt="Image3" className="img-fluid" />
                     </Col>
                 </Row>
                 {/* At Primeland, we focus on developing positive,
@@ -98,8 +90,8 @@ function Home() {
             <Container className="mb-5 mt-5 main6">
                 <Row className="justify-content-center">
                     <Col md={4} className="mb-4">
-                        <Card>
-                            <Card.Body>
+                        <Card className="car">
+                            <Card.Body className="car">
                                 <Card.Title>25+ INDUSTRY EXPERIENCE</Card.Title>
                                 <Card.Text>
                                     With 25+ years of industry experience, we're
@@ -112,8 +104,8 @@ function Home() {
                         </Card>
                     </Col>
                     <Col md={4} className="mb-4">
-                        <Card>
-                            <Card.Body>
+                        <Card className="car">
+                            <Card.Body className="car">
                                 <Card.Title>2K+ ACRES CRAFTED</Card.Title>
                                 <Card.Text>
                                     With over 2,000 acres meticulously crafted,
@@ -125,9 +117,9 @@ function Home() {
                             </Card.Body>
                         </Card>
                     </Col>
-                    <Col md={4} className="mb-4">
-                        <Card>
-                            <Card.Body>
+                    <Col md={4} className="mb-4 ">
+                        <Card className="car">
+                            <Card.Body className="car">
                                 <Card.Title>10K+ HAPPY CUSTOMERS</Card.Title>
                                 <Card.Text>
                                     With a base of over 10,000 satisfied
