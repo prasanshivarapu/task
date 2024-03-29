@@ -8,7 +8,7 @@ function Home() {
     return (
         <div>
             <Container className="mb-5 mt-5">
-                <h2 className="text-center mb-5">THE PRIMELAND MARK</h2>
+                {/* <h2 className="text-center mb-5">THE PRIMELAND MARK</h2> */}
                 <Row className="border-bottom mt-5 mb-5  ">
                     <Col md={6} className="text-center m-auto mt-5 m1">
                         <p className="mt-3 mb-3">
